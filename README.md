@@ -2,6 +2,8 @@
 
 This is a thorough implementation of ID3, C4.5 and CART decision trees. It can process both discrete and continuous data.
 
+If you have any question, please file an issue or contact me by loginaway@gmail.com.
+
 ## Dependencies
 
 Only *numpy* is needed to be installed manually. Try
