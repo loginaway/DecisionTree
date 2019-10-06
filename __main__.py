@@ -1,6 +1,8 @@
+# coding: utf-8
+
+import pickle
 from DecisionTree.DecisionTree import decisionTree
 from DecisionTree.toolkit import toolkit
-import pickle
 
 toolkit=toolkit()
 conf=toolkit.readConf('DecisionTree/decisionTree.conf')
