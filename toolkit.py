@@ -1,5 +1,7 @@
-import numpy
+# coding: utf-8
+
 import re
+import numpy
 
 class toolkit:
     def readConf(self, filename='./decisionTree.conf'):
