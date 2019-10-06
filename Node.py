@@ -1,6 +1,6 @@
-import numpy as np
+# coding: utf-8
 
-# author: Loginaway #
+import numpy as np
 
 class Node(object):
     '''
