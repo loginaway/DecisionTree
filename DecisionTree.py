@@ -1,10 +1,11 @@
-from DecisionTree.Node import Node
-import numpy as np
+# coding: utf-8
+
 import sys
+import numpy as np
+from DecisionTree.Node import Node
+
 # set the maximal recursion limits here.
 sys.setrecursionlimit(10000)
-
-# author: Loginaway #
 
 class baseClassDecisionTree(object):
     '''
