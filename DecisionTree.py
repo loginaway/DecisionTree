@@ -2,7 +2,7 @@
 
 import sys
 import numpy as np
-from DecisionTree.Node import Node
+from Node import Node
 
 # set the maximal recursion limits here.
 sys.setrecursionlimit(10000)
@@ -449,7 +449,7 @@ if __name__=='__main__':
     # print(dectree.evaluate(testing_D, A))
     # print(dectree.tree)
 
-    D=np.genfromtxt('../../dataset/iris/iris_processed.txt', dtype=str)
+    D=np.genfromtxt('dataset/iris_train.txt', dtype=str)
     np.random.shuffle(D)
     k=len(D)
     attribute_name=['sepal length', 'sepal width', 'petal length', 'petal width']
